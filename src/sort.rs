@@ -1,18 +1,4 @@
 pub mod sort {
-    // pub fn bubble_sort(arr: Vec<i32>) -> Vec<i32> {
-    //     let mut result = arr.clone();
-    //     for ele in arr {
-    //         println!("Single number is {:?}", ele);
-    //         for (i, x) in result.iter().enumerate() {
-    //             println!("Inner index is {}, number is {}", i, x);
-    //             if x > &ele {
-    //                 let temp = ele;
-    //                 result[i] = temp;
-    //             }
-    //         }
-    //     }
-    //     return result;
-    // }
 
     pub fn bubble_sort(arr: &mut [i32]) -> Vec<i32> {
         let mut swapped = true;
